@@ -22,7 +22,7 @@ t1<-Sys.time()
 
 # Please enter here paths, roi, and output name
 
-vipath <- "~/ROCCO/PROJECTS/16b_trapananda_TS/00_MOD13_QA_testt/02_msk_lenga"
+vipath <- "~/PROJECTS/16b_trapananda_TS/00_MOD13_QA_testt/02_msk_lenga"
 vifl <- list.files(path=vipath, pattern=glob2rx("*MOD13Q1*.tif"), full.names=T)
 sceneID <- substr(vifl, 81, 116)
 dates.table <- read.csv("~/ROCCO/PROJECTS/16b_trapananda_TS/00_MOD13_QA_testt/MOD13Q1_400_dates.csv", sep = ",", header=TRUE)
